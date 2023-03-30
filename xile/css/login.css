@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a,
+i,
+em,
+li {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  color: #333;
+}
+html,
+body {
+  height: 100%;
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 32px !important;
+  }
+}
+header {
+  height: 2.6667rem;
+}
+header .deng {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.3333rem;
+  font-size: 1.0133rem;
+}
+header .deng span:nth-child(1) {
+  margin-left: 1.3333rem;
+}
+header .deng span:nth-child(1) a {
+  color: #ccc;
+}
+header .deng span:nth-child(1) i {
+  font-weight: bold;
+  padding-left: 0.8rem;
+}
+header .deng span:nth-child(2) {
+  margin-right: 1.3333rem;
+  color: #ababac;
+}
+nav .top {
+  display: flex;
+  margin-top: 2.6667rem;
+}
+nav .top .tu img {
+  margin-left: 2.1333rem;
+}
+nav .top .text p {
+  margin-left: 1.3333rem;
+}
+nav .top .text p:nth-child(1) {
+  font-size: 1.2267rem;
+  font-weight: 700;
+}
+nav .top .text p:nth-child(2) {
+  color: #ababac;
+  font-size: 1.12rem;
+  margin-top: 0.5333rem;
+}
+nav .bottom .shu {
+  text-align: center;
+  border: none;
+  margin-top: 2.6667rem;
+}
+nav .bottom .shu input {
+  width: 80%;
+  height: 2.1333rem;
+  outline: none;
+  border: none;
+  font-size: 1.0667rem;
+  border-bottom: 0.0267rem solid #ccc;
+}
+nav .bottom .shu input:nth-child(2) {
+  margin-top: 1.3333rem;
+}
+nav .bottom .anniu {
+  text-align: center;
+  margin-top: 2.6667rem;
+}
+nav .bottom .anniu button {
+  width: 70%;
+  height: 2.9333rem;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 1.12rem;
+  background-color: orange;
+  border-radius: 1.6rem;
+}
+nav .bottom .anniu button a {
+  color: #fff;
+}
+nav .bottom p {
+  margin-top: 1.3333rem;
+  margin-left: 1.3333rem;
+}
+nav .bottom p a {
+  color: #ababac;
+}
+footer .sanfang p {
+  font-size: 0.8rem;
+  color: #6a6c6b;
+  text-align: center;
+  margin-top: 4.8rem;
+}
+footer .sanfang ul {
+  margin-top: 1.0667rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
